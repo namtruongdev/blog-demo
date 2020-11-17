@@ -1,0 +1,12 @@
+nav {
+  background: #4fa9ba;
+  min-height: 60px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+nav svg {
+  width: 100px;
+}

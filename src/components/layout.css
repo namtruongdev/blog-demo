@@ -13,10 +13,9 @@ body {
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
+  -webkit-font-kerning: normal;
   font-kerning: normal;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 article,
@@ -594,4 +593,9 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+main {
+  max-width: 1344px;
+  margin: 0 auto;
 }
