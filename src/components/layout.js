@@ -5,6 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import Hero from "./hero"
 import "./layout.css"
+import Logo from "../assets/fabbi.svg"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,7 +25,9 @@ const Layout = ({ children }) => {
         <Hero />
       </header>
       <main>{children}</main>
-      <footer></footer>
+      <footer>
+        <Logo />
+      </footer>
     </>
   )
 }

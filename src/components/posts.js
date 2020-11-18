@@ -6,12 +6,14 @@ const Posts = ({ title, image, time, content }) => {
     <article>
       <div className="title">
         <img src={image} />
-        <h2>{title}</h2>
-        <time>{time}</time>
+        <div className="title__info">
+          <h2>{title}</h2>
+          <time>{time}</time>
+        </div>
       </div>
       <div className="description">{content}</div>
       <div className="read-more">
-        <button>Keep Reading</button>
+        <button>Keep Reading →</button>
       </div>
     </article>
   )
