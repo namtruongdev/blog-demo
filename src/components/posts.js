@@ -5,7 +5,9 @@ const Posts = ({ title, image, time, content }) => {
   return (
     <article>
       <div className="title">
-        <img src={image} />
+        <div>
+          <img src={image} />
+        </div>
         <div className="title__info">
           <h2>{title}</h2>
           <time>{time}</time>
