@@ -16,7 +16,8 @@ article {
   padding: 30px;
   border-radius: 3px;
   margin: 10px;
-  flex: 1;
+  flex: 0 0 100%;
+  max-width: 500px;
 }
 
 .read-more button {
@@ -27,6 +28,10 @@ article {
   border-radius: 3px;
   margin-top: 30px;
   cursor: pointer;
+}
+
+.description {
+  min-height: 250px;
 }
 
 .read-more button:hover {

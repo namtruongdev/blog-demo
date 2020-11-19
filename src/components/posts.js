@@ -15,7 +15,7 @@ const Posts = ({ title, image, time, content }) => {
       </div>
       <div className="description">{content}</div>
       <div className="read-more">
-        <button>Keep Reading →</button>
+        <button>Keep Reading &rarr;</button>
       </div>
     </article>
   )
